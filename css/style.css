@@ -2,19 +2,34 @@
 
 body {
   font-family: "Inter", sans-serif;
+  width: 940px;
+  margin-left: 250px;
 }
 
 header h1 {
-    color: #3D3D3D;
-    background: #E1EDF2;
+  color: #3d3d3d;
+  background: #e1edf2;
+  padding: 10px;
 }
 
 section h2 {
-    border-bottom: black solid 1px;
+  border-bottom: black solid 1px;
 }
 
 main figure {
-    text-align: center;
-    background: whitesmoke;
-    color: lightgrey;
+  text-align: center;
+  background: whitesmoke;
+  color: lightgrey;
+  display: flex;
+  flex-direction: column;
+  margin: 30px; 
+}
+
+figure img,
+figure figcaption {
+  padding: 15px;
+}
+
+figure img {
+    margin-bottom: 10px;
 }
