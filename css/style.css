@@ -12,6 +12,13 @@ header h1 {
   padding: 10px;
 }
 
+#intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 section h2 {
   border-bottom: black solid 1px;
 }
@@ -32,4 +39,13 @@ figure figcaption {
 
 figure img {
     margin-bottom: 10px;
+}
+
+#intro figure {
+  width: 550px;
+}
+
+#historia figure {
+  width: 275px;
+  float: right;
 }
