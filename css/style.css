@@ -6,10 +6,11 @@ body {
   margin-left: 250px;
 }
 
-header h1 {
+.title {
   color: #3d3d3d;
   background: #e1edf2;
   padding: 10px;
+  border: none;
 }
 
 #intro {
