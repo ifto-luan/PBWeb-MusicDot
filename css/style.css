@@ -30,7 +30,7 @@ main figure {
   color: lightgrey;
   display: flex;
   flex-direction: column;
-  margin: 30px; 
+  margin: 30px;
 }
 
 figure img,
@@ -39,7 +39,7 @@ figure figcaption {
 }
 
 figure img {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 #intro figure {
@@ -49,4 +49,32 @@ figure img {
 #historia figure {
   width: 275px;
   float: right;
+}
+
+#enviar-mensagem {
+  display: flex;
+  flex-direction: column;
+}
+
+.enviar-mensagem-campos-normal {
+  padding: 10px;
+  margin: 10px;
+  width: 500px;
+  height: 30px;
+}
+
+.enviar-mensagem-campos-grande {
+  padding: 10px;
+  margin: 10px;
+  width: 500px;
+  height: 300px;
+  justify-content: start;
+}
+
+#enviar-mensagem button {
+  padding: 10px;
+  margin: 10px;
+  width: 100px;
+  height: 50px;
+  font-weight: bold;
 }
