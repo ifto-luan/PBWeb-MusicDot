@@ -2,6 +2,7 @@ const displayedImage = document.querySelector('.displayed-img');
 const thumbBar = document.querySelector('.thumb-bar');
 
 const btn = document.querySelector('button');
+btn.setAttribute('class', 'light');
 const overlay = document.querySelector('.overlay');
 
 /* Declarar um array com o nome de arquivos das imagens */
